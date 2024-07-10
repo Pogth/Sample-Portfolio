@@ -1,0 +1,228 @@
+<!--THIS IS A PORTFOLIO WEBSITE, ALL THE COMMENTS ADDED TO THE CODE ARE FOR MY OWN UNDERSTANDING-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Parth's Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/284017be31.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id ="header">
+        <div class="container"></div>
+        <nav>
+            <img src="images/15.png" class="logo">
+            <ul>
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="header-text">
+        <p>Btech Student</p>
+        <h1>I am <span>Parth</span><br>and I study in Sharda University</h1>
+        </div>
+    </div>
+
+<!--THIS IS THE ABOUT SECTION OF THE WEBSITE-->
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/4.jpg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="subtitle">About me</h1>
+                    <p>My name is Parth Sharma, I have done my schooling from don bosco school alaknanda
+                        I am currently in 3rd year of BTECH with the majos Information Technology at 
+                        Sharda University Greater Noida, I like to learn new things and my interests are
+                        photo editing, video editing, a bit of coding, i like solving rubics cube when 
+                        I am bored and taking care of my beautiful hair.
+                    </p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience]')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>UI/UX</span><br>Designing Web/App Interfaces</li>
+                            <li><span>Web Development</span><br>Development of websites</li>
+                            <li><span>Editing</span><br>Photo and Video editing</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience    ">
+                        <ul>
+                            <li><span>2021</span><br>Edited Youtube Thumbnails</li>
+                            <li><span>2022</span><br>Edited Youtube Videos</li>
+                            <li><span>2024</span><br>Internship at GIIT SOLUTIONS</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents " id="education">
+                        <ul>
+                            <li><span>2020</span><br>10th Standard from Don Bosco</li>
+                            <li><span>2022</span><br>12th Standard from Don Bosco</li>
+                            <li><span>2026</span><br>BTECH from SU (currently going on)</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<!--THIS IS THE SERVICE SECTION OF THE WEBSITE-->
+<div id="services">
+<div class="services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+          <div>
+            <i class="fa-solid fa-code"></i>
+            <h2>Web Development</h2>
+            <p>I can help you with basic website development for all
+                kinds of websites.
+            </p>
+            <a href="#">Learn more</a>
+          </div>  
+          <div>
+            <i class="fa-solid fa-pencil"></i>
+            <h2>Editing</h2>
+            <p>I can help you with all types of photo and video editings,
+                youtube videos, thumbnails, short movies, mvs, etc.
+            </p>
+            <a href="#">Learn more</a>
+          </div> 
+          <div>
+            <i class="fa-solid fa-crop"></i>
+            <h2>UI/UX Design</h2>
+            <p>I can help you with basic ui designing for different types of
+                websites such as, a portfolio.</p>
+            <a href="#">Learn more</a>
+          </div> 
+        </div>
+
+    </div>
+ </div>
+</div>
+ <!--THIS IS THE PORTFOLIO SECTION OF THE WEBSITE-->
+<div id="portfolio">
+ <div class="portfolio">
+    <div class="container">
+        <h1 class="subtitle">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/10.jpg">
+                <div class="layer">
+                    <h3>Calculator</h3>
+                    <p>This was a basic calculator app which was I made as my 
+                        first project, this was made to get a basic understanding of 
+                        html, css and js while also learning them.
+                    </p>
+                    <a href="https://charming-fox-e2a6a6.netlify.app/"><i class="fa-duotone fa-calculator"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/11.jpg">
+                <div class="layer">
+                    <h3>Wordle Clone</h3>
+                    <p>This was a clone of a famous game called wordel, in this game
+                        the player can choose whatever amount of letter of words they
+                        want to play with and then guess with word within a pre decided list.
+                    </p>
+                    <a href="https://668e2d828c3d5080f06622bd--jocular-granita-bcdeed.netlify.app/"><i class="fa-solid fa-book-open"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/12.jpg">
+                <div class="layer">
+                    <h3>Landing page</h3>
+                    <p>This was a landing page template, these are very simple templates one can use to 
+                        make their own website for their business, the example showed here is a website of a gym.
+                    </p>
+                    <a href="https://668d95140dd7faddbcada592--bucolic-palmier-242804.netlify.app/"><i class="fa-solid fa-globe"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See more</a>
+    </div>
+</div>
+</div>
+
+<!--THIS IS THE CONTACT SECTION OF THE WEBSITE-->
+
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact me</h1>
+                <p> <i class="fa-solid fa-paper-plane"></i> parthsharmaro2@gmail.com</p>
+                <p> <i class="fa-solid fa-mobile"></i> 91+ 5276990340</p>
+                <div class="social-icons">
+                    <a href="https://www.facebook.com/zuck/"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://x.com/Pogthhh"><i class="fa-brands fa-x-twitter"></i></a>
+                    <a href="https://www.instagram.com/pogthhh/"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://www.linkedin.com/in/parth-sharma-164701225/"><i class="fa-brands fa-linkedin-in"></i></a>
+                </div>
+                <a href="images/cv.pdf" download class="btn" btn2>Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p><i class="fa-solid fa-heart"></i> Copyright © Parth Sharma who made this website portfolio <i class="fa-solid fa-heart"></i></p>
+    </div>
+</div>
+    
+
+
+<!--INLINE JAVASCRIPT-->
+<script>
+
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link")
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab")
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+        
+    }
+
+</script>
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbw7b1i7agm91kuCj3o-BZ9yBLClBsWibHyJo1ObgJPinmDztBUIxPebzi6Lt9LsUK-Y/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Form Submitted!"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+</body>
+</html>
